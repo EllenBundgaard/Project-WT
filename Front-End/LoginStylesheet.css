@@ -1,0 +1,87 @@
+body{ /* This should make everything fill out whole page, however header doesn't reach the top... */
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+    margin-top: 0 !important;
+    background-color: #444059; /* Purple */
+}
+
+header{
+    background-color: #444059; /* Purple */
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    color: #FFFF;   /* White */
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: -1px;
+}
+
+article{
+    background-color: #9792B0;
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.p1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 8px;
+}
+
+.p2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding-top: 8px;
+    padding-left: 55px;
+}
+
+input[type=text]{
+    width: 300px;
+    margin-left: 50px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 6px;
+    background-color: #E1E0E8;
+    border-radius: 30px;
+    border-color: #444059;
+    color: #444059;
+}
+
+input[type=password]{
+    width: 300px;
+    margin-left: 50px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 6px;
+    background-color: #E1E0E8;
+    border-radius: 30px;
+    border-color: #444059;
+    color: #444059;
+}
+
+input[type=submit]{
+    /* Colors */
+    background-color: #FD9B41;
+    border-color: #444059;
+    color: #444059;
+
+    /* Size */
+    width: 100px;
+    border-radius: 30px;
+
+    /* Placement */
+    margin-top: 50px;
+    margin-left: 150px;
+
+    /* Text placement */
+    padding-top: 3px;
+    padding-bottom: 3px;
+
+    /* Text style */
+    font-weight: bold;
+}
