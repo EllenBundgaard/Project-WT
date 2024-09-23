@@ -1,0 +1,9 @@
+Updated 23-09-2024
+
+Currently we have 3 folders, Back-End, Front-End, and Visual-Media.
+The point is to use the 3-tier method, however the lowest layer won't be present seeing as we don't have a database (yet).
+You could argue that the Visual-Media folder belongs in the Front-End folder. Fortunately this can changed, however the sooner the better.
+
+The Back-End folder is for all JavaScripts
+The Front-End folder is for all HTML scripts
+The Visual-Media folder is for pictures and videos
